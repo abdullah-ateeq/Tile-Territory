@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Four territory tiles: copper diamond, teal circle, stone and empty cell. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Board frame -->
+    <path
+        android:fillColor="#FF252A31"
+        android:pathData="M34,32h40a2,2 0 0,1 2,2v40a2,2 0 0,1 -2,2h-40a2,2 0 0,1 -2,-2v-40a2,2 0 0,1 2,-2z" />
+    <!-- Player 2 tile (top right) -->
+    <path
+        android:fillColor="#FF2F6F73"
+        android:pathData="M56.5,35h15a1.5,1.5 0 0,1 1.5,1.5v15a1.5,1.5 0 0,1 -1.5,1.5h-15a1.5,1.5 0 0,1 -1.5,-1.5v-15a1.5,1.5 0 0,1 1.5,-1.5z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF9FD3CF"
+        android:strokeWidth="1.4"
+        android:pathData="M64,40.5a3.5,3.5 0 1,1 0,7a3.5,3.5 0 1,1 0,-7z" />
+    <!-- Empty cell (top left) -->
+    <path
+        android:fillColor="#FF30353D"
+        android:pathData="M36.5,35h15a1.5,1.5 0 0,1 1.5,1.5v15a1.5,1.5 0 0,1 -1.5,1.5h-15a1.5,1.5 0 0,1 -1.5,-1.5v-15a1.5,1.5 0 0,1 1.5,-1.5z" />
+    <!-- Player 1 tile (bottom left) -->
+    <path
+        android:fillColor="#FFA0503F"
+        android:pathData="M36.5,55h15a1.5,1.5 0 0,1 1.5,1.5v15a1.5,1.5 0 0,1 -1.5,1.5h-15a1.5,1.5 0 0,1 -1.5,-1.5v-15a1.5,1.5 0 0,1 1.5,-1.5z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFE6B09A"
+        android:strokeWidth="1.4"
+        android:pathData="M44,60l4,4l-4,4l-4,-4z" />
+    <!-- Blocked cell (bottom right) -->
+    <path
+        android:fillColor="#FF5E5A54"
+        android:pathData="M56.5,55h15a1.5,1.5 0 0,1 1.5,1.5v15a1.5,1.5 0 0,1 -1.5,1.5h-15a1.5,1.5 0 0,1 -1.5,-1.5v-15a1.5,1.5 0 0,1 1.5,-1.5z" />
+    <path
+        android:strokeColor="#FF7D776F"
+        android:strokeWidth="1.2"
+        android:pathData="M56,63l7,-7M56,70l14,-14M62,72l11,-11M69,72l4,-4" />
+</vector>
